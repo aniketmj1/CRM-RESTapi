@@ -1,0 +1,23 @@
+body{
+    background: url("/img/taskbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tasktbrow{
+    background-image : linear-gradient(to bottom right,rgb(243, 177, 209),rgb(196, 196, 241));
+    color: rgb(0, 0, 0);
+}
+.btnshow{
+    background-image: linear-gradient(to top left,rgb(246, 179, 141),rgb(138, 243, 243));
+}
+.btnedit{
+    background-image: linear-gradient(to top left,rgb(141, 246, 243),rgb(14, 137, 231));
+}
+.btndelete{
+    background-image: linear-gradient(to top left,rgb(251, 71, 71),rgb(192, 254, 67));
+}
+.btnaddtask{
+    background-image: linear-gradient(to top left,rgb(80, 71, 251),rgb(195, 67, 254));
+}
+ 

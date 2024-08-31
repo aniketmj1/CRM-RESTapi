@@ -1,0 +1,75 @@
+/* body{
+    width: 1524px;
+} */
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.tittle {
+    display: flex;
+    position: absolute;
+    bottom: 30%;
+
+    left: 438px;
+    z-index: 10;
+}
+/* .crm-area{
+    width: 100vb;
+} */
+
+h2 {
+    font-weight: bold;
+    color: rgb(141, 137, 148);
+}
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro-text{
+     margin-top: 10px;
+    position: relative; 
+    left: 20%;
+    font-size: 40px;
+    padding: 10px 50px 10px 50px;
+    /* background-image: url("/img/mainlogo.jpg"); */
+    background-size: cover;
+    background-position: center;
+}
+.c2{
+    width: 50%;
+}
+.r1{
+    margin: 33px 92px;
+    width: 100vb;
+}
+.project-text{
+    background-color: rgba(178, 225, 243, 0.508);
+    padding-top: 82px;
+}
+.icon{
+    height: 20px;
+    /* float:right; */
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+.ftcls{
+    background-color: black;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    margin-right: 0;
+}
+.lgicon{
+    height: 70px;
+}
+.btn{
+background-color: rgb(50, 152, 246);
+color: aliceblue;
+}

@@ -1,0 +1,12 @@
+.bg-nav{
+    background-color: #aa0c66 !important;
+    /* background-image: linear-gradient(rgb(0, 0, 0),rgba(195, 152, 152)); */
+    
+}
+.navcolor{
+    color: aliceblue !important;
+}
+
+.navbar{
+    margin: 0;
+}

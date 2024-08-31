@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ADD User</title>
+	<link rel="stylesheet" href="/css/addprofile.css">
+</head>
+
+<body>
+	<!-- <form action="#" th:action="@{/register}" method="post" th:object="${user}">
+        <label>Full name:</label>
+        <input type="text" th:field="*{name}" /><br/> -->
+
+	<div class="container " id="formbox">
+
+		<form id="form" th:action="@{/add}" method="post" th:object="${newCustomer}">
+			<h2>Add Customer Information</h2>
+
+			<div class="mb-3">
+				<label for="fname">First Name:</label><br>
+				<input type="text" placeholder="First Name" id="fname" name="fname" th:field="*{firstName}">
+				<br> <br>
+			</div>
+			<div class="mb-3">
+				<label for="lname">LastName:</label><br>
+				<input type="text" id="lname" placeholder="Last Name" name="lname" th:field="*{lastName}">
+				<br><br>
+			</div>
+			<div class="mb-3">
+				<label for="email" class="form-label">Email address:</label> <br>
+				<input type="email" class="form-control" id="email" th:field="*{email}"
+					placeholder="name@example.com"><br>
+				<br>
+			</div>
+
+			<div class="mb-3">
+				<label for="phoneNo" class="form-label">Phone Number:</label> <br>
+				<input type="tel" class="form-control" id="phoneno" th:field="*{phoneNo}" placeholder="phoneNo" />
+				<br><br>
+			</div>
+
+			<div class="mb-3">
+				<label for="formFile" class="form-label">Upload Profile
+					picture</label> <br>
+				<input class="form-control" type="file" id="formFile">
+			</div>
+			<br>
+			<div class="d-grid gap-2 d-md-block">
+				<button class="btn btn-primary" type="submit">Save</button>
+
+			</div>
+
+
+
+		</form>
+
+	</div>
+
+
+</body>
+
+</html>

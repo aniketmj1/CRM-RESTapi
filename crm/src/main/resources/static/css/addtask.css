@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 500px;
+    height: 400px;
+    
+    background-image: linear-gradient(rgba(254, 200, 3, 0.646),rgba(99, 58, 246, 0.597));
+    padding: 3%;
+}
+
+body{
+    background-image: url("/img/addtaskbg.jpg");
+    background-size: cover;
+  
+    
+}
+.btn-add{
+    background-image: linear-gradient(to right top, rgb(77, 236, 202),rgb(8, 241, 93));
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+main{
+    background-color: aliceblue;
+    
+}
+
+.anime{
+    display: inline;
+    background-image: red;
+    
+}
+.con-form{
+    display: inline;
+}

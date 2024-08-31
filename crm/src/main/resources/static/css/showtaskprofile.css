@@ -1,0 +1,27 @@
+.c{
+    background-color: rgba(0, 0, 0, 0.542);
+    color: aliceblue;
+    margin-left: 350px;
+   
+    width: 800px;
+    height: 100vh;
+    
+    padding: 20px 40px;
+
+}
+body{
+    background-image: url(/img/shwtskbg.jpg);
+    background-size: cover ;
+   
+    /* background-image: linear-gradient( rgba(0, 0, 0, 0.183),rgba(249, 7, 7, 0.122)); */
+}
+p {
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+}
+
+.tittle{
+    font-size: 25px;
+    margin-left: 30px;
+}

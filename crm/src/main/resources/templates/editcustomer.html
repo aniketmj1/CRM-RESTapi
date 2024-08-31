@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Edit User</title>
+<link rel="stylesheet" href="addprofile.css">
+</head>
+<body>
+
+	<div class="container" id="formbox">
+
+		<form  id="form"  th:action="@{/edit/{id}(id=${editCustomer.id})}" method="post"  th:object="${editCustomer}">
+		<h2>Add User Information</h2>
+			<label for="fname">First Name:</label><br>
+			 <input type="text"	id="fname" name="fname" th:field="*{firstName}"><br> <label for="lname">Last
+				Name:</label><br> <input type="text" id="lname" name="lname"  th:field="*{lastName}"> <br>
+			<label for="email" class="form-label">Email address:</label> <br>
+			<input type="email" class="form-control" id="email"
+				placeholder="name@example.com"><br> <label
+				for="phoneNo" class="form-label">Phone Number:</label> <br> <input
+				type="tel" class="form-control" id="phoneno" placeholder="phoneNo">
+
+			<div class="mb-3">
+				<label for="formFile" class="form-label">Upload Profile
+					picture</label> <br>
+				<input class="form-control" type="file" id="formFile">
+			</div>
+
+			<div  class="d-grid gap-2 d-md-block">
+				<button class="btn btn-primary" type="submit"  >Save</button>
+				
+			</div>
+
+
+
+		</form>
+
+	</div>
+
+
+</body>
+</html>
